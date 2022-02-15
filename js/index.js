@@ -13,10 +13,10 @@ const cardBtns = document.querySelectorAll(".meal__card-button");
 const closeBtn = document.querySelector(".meal__modal-imgbox i");
 
 function response(url) {
-    fetch(url,{method: "GET"})
+    fetch(url)
         .then(data => data.json())
         .then(response => {
-            if (!response.articles ) {
+            if (!response.articles || !response.totalResults) {
                 noResultBtn.classList.replace("hidden", "visible")
             } else {
                 noResultBtn.classList.replace("visible", "hidden");
