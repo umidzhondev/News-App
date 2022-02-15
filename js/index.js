@@ -61,7 +61,7 @@ btn.addEventListener('click', () => {
         'q=' + value + "&" +
         'from=2022-02-11&' +
         'sortBy=popularity&' +
-        'apiKey=0f16274b2bd34b7d94ed41fde289494f');
+        'apiKey=2816ef3a550e45a8a65c9c8a983839b3');
 });
 input.addEventListener('keypress', (e) => {
     value = input.value.trim().toLowerCase();
@@ -71,6 +71,6 @@ input.addEventListener('keypress', (e) => {
             'q=' + value + "&" +
             'from=2022-02-11&' +
             'sortBy=popularity&' +
-            'apiKey=0f16274b2bd34b7d94ed41fde289494f');
+            'apiKey=2816ef3a550e45a8a65c9c8a983839b3');
     }
 });
