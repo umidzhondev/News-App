@@ -13,7 +13,7 @@ const cardBtns = document.querySelectorAll(".meal__card-button");
 const closeBtn = document.querySelector(".meal__modal-imgbox i");
 
 function response(url) {
-    fetch(url)
+    fetch(url,{method: "GET"})
         .then(data => data.json())
         .then(response => {
             if (!response.articles ) {
