@@ -16,7 +16,7 @@ function response(url) {
     fetch(url)
         .then(data => data.json())
         .then(response => {
-            if (!response.articles || !response.totalResults) {
+            if (!response.articles ) {
                 noResultBtn.classList.replace("hidden", "visible")
             } else {
                 noResultBtn.classList.replace("visible", "hidden");

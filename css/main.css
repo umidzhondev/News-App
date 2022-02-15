@@ -107,7 +107,7 @@ i {
     padding: 17px;
     border: none;
     border-radius: 8px;
-    background: var(--orange-color);
+    background: #2d75ff;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     transition: .3s ease-in;
